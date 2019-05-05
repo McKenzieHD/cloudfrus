@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 var bot = new Discord.Client();
 var prefix = ("c");
-var
+
 bot.on("ready", () => {
   bot.user.setPresence({ game: { name: '[chelp] Cloud v.1.0.0' , type: 0}})  
     console.log("Bot Ready !");
